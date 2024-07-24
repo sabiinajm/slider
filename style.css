@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./img1.jpg') center/cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.arrows{
+    display: flex; 
+    color: #fff; 
+    width: 60vw; 
+    justify-content: space-between; 
+    position: absolute; 
+}
+button{
+    height: 40px;
+    width: 40px;
+}
